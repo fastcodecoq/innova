@@ -1,0 +1,244 @@
+
+
+body{
+    width: 1100px !important;
+    margin: 0 auto !important;
+    padding: 0 27px 50px 27px;
+
+    position: relative;
+}
+
+.logo-cab{
+
+    width: 250px;
+    height: 67px;
+    position: relative !important;
+    z-index: 999;
+    margin: 0 auto !important;
+    margin-top: 5px;
+    float: none;
+    background: url(../img/_logo.jpg) no-repeat 0 2px;
+    /* background-position: 0 -281px */
+}
+
+
+ul.ul-cont-porta {
+
+    padding: 0 ;
+
+}
+
+ul.ul-cont-porta li:first-child{
+
+    width: 210px ;
+    margin-left: 0 ;
+
+}
+
+ul.ul-cont-porta li{
+
+    width: 450px ;
+    height: auto;
+    margin-left: 20px ;
+    padding: 0;
+
+
+}
+
+ul.ul-cont-porta li.ult{
+
+    width: 340px !important;
+    margin-left: 0 !important;
+    background: #edf4c0;
+    padding: 0 5px 12px 0 !important;
+    border-radius : 0 5px 5px 0;
+
+}
+
+header{
+    height: 80px;
+}
+
+section#cont_centro{
+
+    width: 1100px;
+
+    padding-left: 10px;
+    display: block;
+    margin-top: 10px;
+    border: none !important;
+
+}
+
+div.path{
+    width: 100%;
+    display: block;
+    height: 1px;
+}
+
+
+ul.ul-pila li{
+    width: auto;
+}
+
+
+h1.h1-titulo{
+
+    font-weight: bold;
+    font-size: 19px;
+    text-align: left;
+     color: #d8d7d7;
+    text-shadow: 1px 1px 1px #a2a2a2;
+
+
+}
+
+ul.menu-porta {
+
+    margin-top: 10px;
+    padding: 0 0 10px 5px;
+    overflow-x: hidden;
+
+
+}
+
+ul.menu-porta li {
+
+
+    padding: 10px 0 !important;
+    height: auto;
+    overflow: auto;
+    margin-top: 5px;
+    background: #f7fbdc;
+    border-radius: 5px  0 0 5px ;
+    box-shadow: 0 1px 1px #ccc;
+    border: 1px solid #ccc;
+    border-right: none;
+
+
+
+}
+
+ul.menu-porta li:hover{
+    background: #ddea85;
+    box-shadow: -1px 3px 3px #888;
+
+}
+
+ul.menu-porta li:first-child {   margin-top: 0; }
+
+
+ul.menu-porta li a{
+
+    height: 42px;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: left;
+    float: left;
+    display: block;
+    margin-left: 5px;
+    text-shadow: 1px 1px 2px #f5f5f5;
+}
+
+figure.icon-porta{
+    width: 196px;
+    height: 130px;
+    position: relative;
+    margin-top: 5px;
+
+
+}
+
+figure.icon-porta a{
+
+    position: absolute;
+    width: 196px;
+    height: 130px;
+    left: 0;
+
+
+}
+
+.icono-portafolio{
+
+    width: 100%;
+    height: 100%;
+    background: url(../img/icono-porta.jpg) no-repeat center;
+
+}
+
+.activo{
+    background: #edf4c0 !important;
+    border-radius: 5px  0 0 5px ;
+    border: none !important;
+    box-shadow: 0 2px 2px #666 !important;
+    border: 1px solid #999 !important;
+    border-right: none !important;
+}
+
+.activo:hover{
+    background: #edf4c0 !important;
+    box-shadow: 0 2px 2px #666 !important;
+}
+
+.activo a{
+
+    font-weight: bold;
+    color: #83902a !important;
+    margin-left: 5px;
+
+}
+
+.cont-media{
+    margin-left: 0 !important;
+    padding: 10px 20px !important;
+    background: #edf4c0;
+    border-radius : 5px 0 0 5px ;
+
+}
+
+figure.media-show{
+
+    width: 450px;
+    height: 320px;
+    display: block !important;
+}
+
+p.info-media{
+    width: 410px;
+    padding: 20px ;
+    background: #f6fada;
+    color: black;
+    font-size:  12px;
+    display: block;
+    margin-top: 12px;
+    text-align: left;
+    border-top: 3px solid #83902a;
+}
+
+
+section.apli-porta{
+    width: 320px;
+    min-height: 320px;
+    height: auto;
+    padding:10px;
+    overflow: auto;
+    background: #edf4c0;
+}
+
+p.p-nota{
+    text-align: justify;
+    font-size: 11px;
+    margin-top: 5px;
+    text-shadow: 1px 1px 1px #fcfcfc;
+
+}
+
+aside{
+
+    width: 210px !important;
+    position: fixed;
+    left: 0;
+
+}

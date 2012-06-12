@@ -1,0 +1,86 @@
+body{
+    padding: 0 27px 70px 37px !important;
+}
+
+section#contacto aside:first-child{
+    margin-right: 20px;
+
+}
+
+
+section#cont_centro{
+    width: 100% !important;
+    height: auto;
+    overflow: hidden;
+    display: block;
+}
+
+.clear{
+    clear: both;
+}
+
+figure.img-nosotros{
+    width: 328px;
+    height: 208px;
+    background: #adff2f;
+}
+
+.parrafo-contacto {
+    width: 100% !important;
+    background: #f9faf1;
+    padding: 20px 25px;
+}
+
+.parrafo-contacto h1{
+    text-align: left;
+    font-size: 21px;
+    padding-left: 10px;
+    color: #24266b;
+    text-shadow: 1px 1px 2px #ababab;
+}
+
+.parrafo-contacto .p-columna{
+    border-right: 1px solid #cfcfcf;
+}
+
+.parrafo-contacto p{
+
+    width: 300px;
+    height: auto;
+    font-size: 13px;
+    text-align: justify;
+    padding: 5px 13px !important;
+    color: #919191;
+    overflow: auto;
+    background: red;
+
+}
+
+ul.clientes{
+    width: 98% !important;
+
+
+}
+
+ul.clientes li{
+    text-align: left;
+    width: 290px;
+    font-size: 11px;
+    list-style-image: url(../img/circle.png);
+    list-style-position: inside;
+    color: #898989;
+    text-shadow: 0 1px  1px  #f5f5f5;
+    float: none !important;
+    padding-left: 5px;
+    margin-top: 5px;
+
+
+}
+
+ul.cola li{
+
+   float: left;
+   margin-left: 5px;
+
+}
+

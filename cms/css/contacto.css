@@ -1,0 +1,47 @@
+
+.contacto-cont{
+    width:auto;
+    overflow: auto;
+    display: block;
+}
+
+.contacto-cont aside.info-cont{
+    width: 250px;
+    height: auto;
+
+}
+
+.contacto-cont aside.info-cont h1{
+    text-align: left;
+    font-weight: bold;
+    color: #abbe25;
+    float: none;
+    width: 100%;
+    display: block;
+}
+
+
+.contacto-cont .mapa-cont{
+    width: 680px;
+    float: right;
+    background: black;
+    height: 320px;
+}
+
+.contacto-cont aside.info-cont ul.contacto-lista{
+    overflow: auto;
+
+}
+
+.contacto-cont aside.info-cont ul.contacto-lista li{
+    float: none !important;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+a.link-desc-porta{
+    color: #b2ca44;
+    padding-top: 10px;
+    text-decoration: underline;
+}

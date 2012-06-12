@@ -1,0 +1,58 @@
+
+body{
+    padding: 0 27px 65px 37px !important;
+}
+
+section#contacto aside:first-child{
+    margin-right: 20px;
+
+}
+
+section#cont_centro{
+    height: auto;
+    padding: 20px 10px;
+    overflow: hidden;
+    display: block;
+}
+
+.clear{
+    clear: both;
+}
+
+figure.img-nosotros{
+    width: 328px;
+    height: 245px;
+
+}
+
+.parrafo-contacto {
+    margin-left: 20px;
+}
+
+.parrafo-contacto h1{
+    text-align: left;
+    font-size: 21px;
+    padding-left: 10px;
+    color: #898989;
+
+}
+
+.parrafo-contacto .p-columna{
+    border-right: 1px solid #cfcfcf;
+}
+
+.parrafo-contacto p{
+
+    width: 257px;
+    font-size: 13px;
+    text-align: justify;
+    padding: 5px 13px;
+    color: #919191;
+
+}
+
+span.num-color{
+    color: #b7c652;
+    margin-right: 5px;
+    font-weight: bold;
+}

@@ -1,0 +1,189 @@
+
+.logo-cab{
+
+    width: 250px;
+    height: 67px;
+    position: relative !important;
+    z-index: 999;
+    margin: 0 auto !important;
+    margin-top: 5px;
+    float: none;
+    background: url(../img/_logo.jpg) no-repeat 0 2px;
+    /* background-position: 0 -281px */
+}
+
+
+ul.ul-cont-porta {
+
+    padding: 0 ;
+
+}
+
+ul.ul-cont-porta li:first-child{
+
+    width: 200px ;
+    margin-left: 0 ;
+
+}
+
+ul.ul-cont-porta li{
+
+    width: 400px ;
+    margin-left: 7px ;
+    padding: 0 ;
+
+}
+
+ul.ul-cont-porta li.ult{
+    width: 340px !important;
+    padding: 0 !important;
+    margin-left: 7px;
+}
+
+header{
+    height: 80px;
+}
+
+section#cont_centro{
+
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    border: none !important;
+
+}
+
+div.path{
+    width: 100%;
+    display: block;
+    height: 1px;
+}
+
+
+ul.ul-pila li{
+    width: auto;
+}
+
+
+h1.h1-titulo{
+
+    font-weight: bold;
+    font-size: 19px;
+    text-align: left;
+
+}
+
+ul.menu-porta {
+
+    margin-top: 10px;
+
+
+}
+
+ul.menu-porta li {
+
+    border-top: 1px solid #dee5af;
+    padding: 5px 0 !important;
+    overflow: auto;
+}
+
+ul.menu-porta li:hover{
+    background: #edf4c0;
+}
+
+ul.menu-porta li:first-child { border: none;}
+
+
+ul.menu-porta li a{
+
+    height: 42px;
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: left;
+    float: left;
+    display: block;
+}
+
+figure.icon-porta{
+    width: 196px;
+    height: 130px;
+    position: relative;
+    margin-top: 5px;
+
+
+}
+
+figure.icon-porta a{
+
+    position: absolute;
+    width: 196px;
+    height: 130px;
+    left: 0;
+
+
+}
+
+.icono-portafolio{
+
+    width: 100%;
+    height: 100%;
+    background: url(../img/icono-porta.jpg) no-repeat center;
+
+}
+
+.activo{
+    background: #ddea85 ;
+    border-right: 3px solid #83902a;
+}
+
+.activo:hover{
+    background: #ddea85 !important;
+}
+
+.activo a{
+
+    font-weight: bold;
+    color: #83902a !important;
+    margin-left: 5px;
+}
+
+.cont-media{
+    margin-left: 3px !important;
+
+}
+
+figure.media-show{
+
+    width: 100%;
+    height: 280px;
+    display: block !important;
+}
+
+p.info-media{
+    width: 360px;
+    padding: 20px ;
+    background: #cdd787;
+    color: black;
+    font-size:  12px;
+    display: block;
+    margin-top: 12px;
+    text-align: left;
+    border-top: 3px solid #83902a;
+}
+
+
+section.apli-porta{
+    width: 320px;
+    min-height: 272px;
+    height: auto;
+    padding:10px;
+    overflow: auto;
+    background: #ccc;
+}
+
+p.p-nota{
+    text-align: justify;
+    font-size: 11px;
+    margin-top: 5px;
+}

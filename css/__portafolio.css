@@ -1,0 +1,327 @@
+
+@import "dialogs.css";
+@import "botones.css";
+
+body{
+    width: 1100px !important;
+    margin: 0 auto !important;
+    padding: 0 27px 50px 27px;
+
+    position: relative;
+}
+
+.logo-cab{
+
+    width: 250px;
+    height: 67px;
+    position: relative !important;
+    z-index: 999;
+    margin: 0 auto !important;
+    margin-top: 5px;
+    float: none;
+    background: url(../img/_logo.jpg) no-repeat 0 2px;
+    /* background-position: 0 -281px */
+}
+
+
+ul.ul-cont-porta {
+
+    padding: 0 ;
+
+}
+
+ul.ul-cont-porta li:first-child{
+
+    width: 210px ;
+    margin-left: 0 ;
+
+}
+
+ul.ul-cont-porta li{
+
+    width: 450px ;
+    height: auto;
+    margin-left: 20px ;
+    padding: 0;
+
+
+}
+
+ul.ul-cont-porta li.ult{
+    width: 340px !important;
+    margin-left: 0 !important;
+    padding: 0 5px 12px 0 !important;
+}
+
+header{
+    height: 80px;
+}
+
+section#cont_centro{
+
+    width: 1100px;
+
+    padding-left: 10px;
+    display: block;
+    margin-top: 10px;
+    border: none !important;
+
+}
+
+div.path{
+    width: 100%;
+    display: block;
+    height: 1px;
+}
+
+
+ul.ul-pila li{
+    width: auto;
+}
+
+
+h1.h1-titulo{
+
+    font-weight: bold;
+    font-size: 19px;
+    text-align: left;
+     color: #d8d7d7;
+    text-shadow: 1px 1px 1px #a2a2a2;
+
+
+}
+
+ul.menu-porta {
+
+    margin-top: 10px;
+    padding: 10px 0 10px 5px;
+    overflow-x: hidden;
+  border-right: 2px solid #ebebeb;
+
+}
+
+ul.menu-porta li {
+
+
+    padding: 10px 0 !important;
+    height: auto;
+    overflow: auto;
+    margin-top: 5px;
+    background: #e8f39e;
+    box-shadow:inset 0 0 100px #f2fabe, 0 1px 1px #ccc;
+    border: 1px solid #ccc;
+    border-right: none;
+
+
+
+}
+
+ul.menu-porta li:hover{
+    background: #edf4c0 ;
+    box-shadow: -1px 3px 3px #888;
+
+}
+
+ul.menu-porta li:first-child {   margin-top: 0; }
+
+
+ul.menu-porta li a{
+
+    height: 42px;
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: left;
+    float: left;
+    display: block;
+    margin-left: 5px;
+    text-shadow: 1px 1px 2px #f5f5f5;
+
+}
+
+figure.icon-porta{
+    width: 196px;
+    height: 130px;
+    position: relative;
+    margin-top: 5px;
+
+
+}
+
+figure.icon-porta a{
+
+    position: absolute;
+    width: 196px;
+    height: 130px;
+    left: 0;
+
+
+}
+
+.icono-portafolio{
+
+    width: 100%;
+    height: 100%;
+    background: url(../img/icono-porta.jpg) no-repeat center;
+
+}
+
+.activo{
+    background: #ddea85 !important;
+
+
+    border: none !important;
+    box-shadow: 0 2px 2px #666 !important;
+    border: 1px solid #999 !important;
+    border-right: 3px solid #83902a !important;
+}
+
+.activo:hover{
+    background: #ddea85 !important;
+
+    border: none !important;
+    box-shadow: 0 2px 2px #666 !important;
+    border: 1px solid #999 !important;
+    border-right: 3px solid #83902a !important;
+
+}
+
+.activo a{
+
+    font-weight: bold;
+    color: #83902a !important;
+    margin-left: 5px;
+
+}
+
+.cont-media{
+
+    margin-left: 0 !important;
+    padding: 10px 20px !important;
+
+}
+
+figure.media-show{
+
+    width: 444px;
+    height: 320px;
+    display: block !important;
+    -webkit-box-shadow: 0 0 8px #95a529;
+    -moz-box-shadow: 0 0 10px #95a529;
+    border:1px solid #95a529;
+}
+
+p.info-media{
+    width: 410px;
+    max-width: 410px !important;
+    max-height: 110px;
+    padding: 20px ;
+    background: #ddea85 ;
+    color: black;
+    font-size:  12px;
+    display: block;
+    margin-top: 12px;
+    text-align: left;
+    border-top: 3px solid #83902a;
+    overflow: auto;
+    text-align: justify;
+    text-shadow: 0 1px 2px white;
+
+}
+
+
+section.apli-porta{
+    width: 325px;
+    min-height: 320px;
+    height: auto;
+    padding:10px;
+    overflow: auto;
+    overflow-x: hidden !important;
+
+}
+
+p.p-nota{
+    text-align: justify;
+    font-size: 11px;
+    margin-top: 5px;
+    text-shadow: 1px 1px 1px #fcfcfc;
+
+}
+
+
+nav.gal{
+    width: 325px;
+    height: 309px;
+
+    overflow: auto;
+    overflow-x: hidden !important;
+}
+
+nav.gal table{
+    overflow-x: hidden !important;
+    padding: 5px;
+}
+
+nav.gal table td{
+    width: 120px !important;
+    height: 90px !important;
+    border: 1px solid #ababab;
+    box-shadow: 0 0 3px #333;
+    background: black;
+    position: relative;
+
+}
+
+nav.gal table td img{
+    box-shadow: inset 0 2px 10px #ffffff;
+    cursor: pointer;
+    position: absolute;
+    border: 1px solid black;
+
+
+}
+
+nav.gal table td img:hover{
+    opacity: 0.98;
+    box-shadow: 0 0 10px #ccc;
+    width: 115px;
+    height: 83px;
+    z-index: 1000;
+
+
+    border: 3px solid white;
+
+}
+
+span.span-del{
+
+    position: absolute;
+    width: 17px;
+    top:-5px;
+    right: -5px;
+    padding: 4px 4px;
+    border-radius: 45px;
+    font: bold 14px sans-serif;
+    background: rgb(200,0,0);
+    color: white;
+    z-index:2000;
+    box-shadow:inset 0 2px 3px #f5f5f5;
+    cursor: pointer;
+    border: 1px solid #333;
+
+}
+
+span.span-del:hover,span.span-del:focus{
+
+    box-shadow:inset 0 2px 3px white;
+    background: red;
+
+}
+
+span.span-del:active{
+
+    background: rgb(200,0,0);
+    box-shadow: none;
+
+}
