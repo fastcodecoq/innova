@@ -114,7 +114,7 @@ $rs = $slide->carga(array("id_sl"=>1,"html"=>1));
 
   <header>
 
-       <figure class="center">
+       <figure class="left">
 
            <a href="inicio" >
 
@@ -270,21 +270,7 @@ $rs = $slide->carga(array("id_sl"=>1,"html"=>1));
 
 
 
-  <div class="nav-porta">
 
-      <figure class="left">
-          <a href="#nav-volver">
-              <span class="icono-nav-volver" >volver</span>
-          </a>
-      </figure>
-
-       <figure class="center">
-           <a href="#nav-portafolio">
-               <span class="icono-nav-porta"> PORTAFOLIO</span>
-           </a>
-       </figure>
-
-      </div>
 
   </section>
 

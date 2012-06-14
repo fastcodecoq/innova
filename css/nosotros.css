@@ -13,6 +13,8 @@ section#cont_centro{
     padding: 20px 10px;
     overflow: hidden;
     display: block;
+    background:#F9FAF1;
+    
 }
 
 .clear{
@@ -26,14 +28,17 @@ figure.img-nosotros{
 }
 
 .parrafo-contacto {
+
     margin-left: 20px;
+
 }
 
 .parrafo-contacto h1{
     text-align: left;
     font-size: 21px;
     padding-left: 10px;
-    color: #898989;
+      color: #24266b;
+    text-shadow: 1px 1px 2px #ababab;
 
 }
 

@@ -66,7 +66,7 @@ if(isset($_SESSION["edit"]))
 
 <header>
 
-    <figure class="center">
+    <figure >
 
         <a href="inicio" >
 
@@ -119,7 +119,7 @@ if(isset($_SESSION["edit"]))
            </hgroup>
 
              <p data-role='col1'>
-                 Con más de 15 años de experiencia en el diseño, fabricación y comercialización de las mejores soluciones de espacio para:
+                 Contamos con más de 15 años de experiencia en el diseño, fabricación y comercialización de las mejores soluciones de espacio para:
 
                  <br /><br />
                  <span class="num-color">1.</span> Industrias de eventos y de grandes obras.<br /><br />
@@ -130,15 +130,15 @@ if(isset($_SESSION["edit"]))
 
                    <span class="num-color"> 4.</span> Construcción.<br /><br />
 
-                 conocemos las necesidades y tendencias del mercado y a cada cliente ofrecemos atención personalizada con propuestas caracterizadas el diseño y  excelente relación innovación costo-precio-garantía y funcionalidad.
+                 Conocemos las necesidades y tendencias del mercado y a cada cliente ofrecemos atención personalizada con propuestas caracterizadas el diseño y excelente relación innovación costo-precio-garantía y funcionalidad.
              </p>
 
           </div>
           
-          <p class="left"  data-role='col2' >
-              Porque estamos ubicados en Cartagena, en la zona industrial de mamonal, contamos con instalaciones idóneas y talento humano          profesional en constante capacitación para prestar y garantizar un excelente servicio a nuestros clientes. <br /><br />
-
-              Porque somos una empresa con compromiso y responsabilidad social y ambiental.                         Compensamos la fabricación y servicio de los equipos con la reforestación de bosques a través de una alianza estratégica con nuestro operador ambiental.
+          <p class="left"  data-role='col2'  >
+              Estamos ubicados en Cartagena, en la zona industrial de Mamonal, contamos con instalaciones idóneas y talento humano profesional en constante capacitación para prestar y garantizar un excelente servicio a nuestros clientes.
+              <br />
+              <img src="img/banio.jpg" alt="" style="margin-top:5px" width="257"/>
 
           </p>
           
@@ -232,7 +232,7 @@ if(isset($_SESSION["edit"]))
 
        <figure class="center">
            <a href="#nav-portafolio">
-               <span class="icono-nav-porta"> PORTAFOLIO</span>
+               <span class="icono-nav-porta"> PRODUCTOS</span>
            </a>
        </figure>
 

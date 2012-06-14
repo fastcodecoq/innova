@@ -10,7 +10,11 @@ if(isset($_SESSION["edit"]))
  Este documento es desarrollado y es propiedad
  de Gomosoft, prohíbida su distribución, copia sin au-
  torización previa del creador.
- */?>
+ */
+
+
+
+ ?>
 
 
 
@@ -60,7 +64,7 @@ if(isset($_SESSION["edit"]))
 
 <header>
 
-    <figure class="center">
+    <figure >
 
         <a href="inicio" >
 
@@ -154,6 +158,7 @@ if(isset($_SESSION["edit"]))
           <li>MEJIA VILLEGAS CONSTRUCTORES S.A.</li>
           <li>MOMPRESA LTDA.</li>
           <li>OLEOSERVICES SAS.</li>
+                <li>PAYANES ASOCIADOS LTDA  </li>
          </ul>
 
 
@@ -163,22 +168,18 @@ if(isset($_SESSION["edit"]))
               <li>
 
           <ul class="clientes" data-role='editable' >
-              <li>  ECOFLUIDS LTDA.</li>
-              <li>   FERNANDO DE LA VEGA Y CIA SA.</li>
-              <li>GEMA TOURS SA.</li>
-              <li>GRUPO TRIANGULO S.A.</li>
-              <li>ICARO COLOMBIA SAS.</li>
-              <li>HOTEL SOFITEL SANTA CLARA.</li>
-              <li>IGLESIA CRISTIANA FAMILIAR RIOS DE VIDA.</li>
-              <li>IMEINT LTDA.</li>
-              <li>INCET LTDA.</li>
-              <li>INVERSIONES SAN LAZARO S.A.</li>
-              <li>KMA CONSTRUCCIONES S.A. - PROYECTO.</li>
-              <li>L&M PRODUCCIONES Y BTL LTDA.</li>
-              <li>LAGUNA MORANTE.</li>
-              <li>MEJIA VILLEGAS CONSTRUCTORES S.A.</li>
-              <li>MOMPRESA LTDA.</li>
-              <li>OLEOSERVICES SAS.</li>
+       
+<li>PROMOTORA PARQUE CENTRAL S.A.</li>
+<li>RAMIREZ CHARRY FERNANDO  </li>
+<li>SUDAMIN INDUSTRIAL SAS  </li>
+<li>TRACTOCAR SA  </li>
+<li>TRANSPORTES Y CONSTRUCCIONES JV SAS  </li>
+<li>TRIMECA TRINELCA SAS  </li>
+<li>UNION TEMPORAL MOMPRESA Y JORGE ENRIQUE </li>
+<li>UNITED GOEDECKE COLOMBIA SAS  </li>
+<li>V&C CONSTRUCCIONES SAS  </li>
+<li>ZOFIN SAS  </li>
+<li>ZONA FRANCA PARQUE CENTRAL S.A.S.</li>
           </ul>
 
               </li>
@@ -274,7 +275,7 @@ if(isset($_SESSION["edit"]))
 
        <figure class="center">
            <a href="#nav-portafolio">
-               <span class="icono-nav-porta"> PORTAFOLIO</span>
+               <span class="icono-nav-porta"> PRODUCTOS</span>
            </a>
        </figure>
 

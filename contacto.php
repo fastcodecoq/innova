@@ -70,7 +70,7 @@ if(isset($_SESSION["edit"]))
 
 <header>
 
-    <figure class="center">
+    <figure >
 
         <a href="inicio" >
 
@@ -115,18 +115,12 @@ if(isset($_SESSION["edit"]))
 
              <li>
                  <hgroup>
-                   <h1>Cotizaciones.</h1>
+                   <h1>Para mayor información y cotizaciones favor escribir a:</h1>
                </hgroup>
 
-                   cotizaciones@innova.com
+                   info@innovaespacios.co
               </li>
 
-                 <li>  <hgroup>
-                   <h1>Ventas.</h1>
-               </hgroup>
-
-                   ventas@innova.com
-             </li>
 
                  </li>
 
@@ -300,7 +294,7 @@ if(isset($_SESSION["edit"]))
 
        <figure class="center">
            <a href="#nav-portafolio">
-               <span class="icono-nav-porta"> PORTAFOLIO</span>
+               <span class="icono-nav-porta"> PRODUCTOS</span>
            </a>
        </figure>
 

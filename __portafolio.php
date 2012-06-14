@@ -54,14 +54,11 @@ session_start();
     <link rel="stylesheet"  href="css/html5_reset.css" type="text/css"/>
     <link rel="stylesheet"  href="css/reset.css" type="text/css"/>
     <link rel="stylesheet"  href="css/__estilo_ini.css" type="text/css"/>
-    <link rel="stylesheet"  href="css/__portafolio.css" type="text/css"/>
-    <link rel="stylesheet"  href="css/jquery.jqzoom.css" type="text/css"/>
+    <link rel="stylesheet"  href="css/__portafolio.css" type="text/css"/>    
 
     <script src="js/jquery.js" type="text/javascript"></script>
     <script src="js/html5_ie.js" type="text/javascript"></script>
     <script src="js/gomo_uitl.js" type="text/javascript"></script>
-    <script src="js/jquery.jqzoom-core-pack.js" type="text/javascript"></script>
-    <script src="js/jquery.jqzoom-core.js" type="text/javascript"></script>
     <script src="js/portafolio_core.js" type="text/javascript"></script>
 
 
@@ -133,6 +130,23 @@ session_start();
 
 <div class="overlay"></div>
 
+ <header>
+
+       <figure class="left">
+
+           <a href="inicio" >
+
+               <span class="logo-cab"></span>
+
+           </a>
+
+       </figure>
+
+    
+
+  </header>
+
+
 
 <section id= "cont_centro">
 
@@ -144,21 +158,22 @@ session_start();
 
                <ul class="ul-pila menu-porta">
 
+
+                <li>
+                       <a href="?cat=4" id="4" class="cuar">baños portátiles y<br /> servicios de limpieza.</a>
+                   </li>
+
                    <li>
-                       <a href="#!" id="1" class="prim">casetas petroleras <br /> prefabricadas.</a>
+                       <a href="?cat=1" id="1" class="prim">casetas petroleras <br /> prefabricadas.</a>
                    </li>
 
                    <li >
-                       <a href="#!" id="2" class="seg">contendores  <br /> marítimos.</a>
+                       <a href="?cat=2" id="2" class="seg">contendores  <br /> marítimos.</a>
                    </li>
 
                    <li>
-                       <a href="#!" id="3" class="ter">módulos prefabricados<br /> importados.</a>
-                   </li>
-
-                   <li>
-                       <a href="#!" id="4" class="cuar">baños portátiles y<br /> servicios de limpieza.</a>
-                   </li>
+                       <a href="?cat=3" id="3" class="ter">módulos prefabricados<br /> importados.</a>
+                   </li>                   
 
 
                </ul>

@@ -45,8 +45,6 @@
 
                 $(this).fadeIn(function(){
 
-                    $(this).jqzoom();
-
 
 
                 });
@@ -144,28 +142,6 @@
 
 
 
-function menu_porta(){
-
-    $(".menu-porta a").click(function(){
-
-        var id = $(this).attr("id");
-
-        recarga(id);
-
-    });
-
-}
-
-  function recarga(id){
-
-
-      $(".portafolio-slide").load("__portafolio.php?cat="+id,function(){
-
-          menu_porta();
-
-      });
-
-  }
 
  function agregar_ima(){
 
